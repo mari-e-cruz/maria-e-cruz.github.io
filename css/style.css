@@ -1,0 +1,144 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+/* write your CSS here */
+body#topcolor {
+    background:gray;
+    background-image: url("http://tweakmytwitter.com/backgrounds/images/bg/860.jpg");
+}
+h1 {
+    color: crimson;
+    font-family: droid serif;
+    font-variant: small-caps;
+    text-align: center;
+    text-decoration: underline;
+    border: 2px dashed white;
+    background: black;
+    font-size: 36px;
+}
+#parent {
+    overflow: auto;
+}
+#image {
+    position: relative;
+    top:5px;
+    left: 210px;
+    
+}
+
+h2 {
+    font-variant: small-caps;
+    font-size: 25px
+}
+p {
+    font-style: normal;
+    font-weight: bold;
+    font-family: serif;
+    color: gray;
+}
+#excited {
+    color: crimson;
+    float: none;
+    line-height: 25px;
+}
+#mybox1 {
+    width:300px;
+        height:160px;
+    padding: 10px;
+    margin: 20px;
+    border: 1px dashed white;
+    clear: both;
+    
+}
+#mybox2 {
+    width: 450px;
+    height: 235px;
+    padding: 20px;
+    margin: 20px 20px 20px 20px;
+    border: 1px dashed white;
+}
+    
+h2.first-list {
+    color: white;
+    line-height: 50px;
+    
+}
+ul{
+    list-style-type: none;
+    color: gray;
+}
+div.seconddiv {
+    text-align: center;
+    float: right;
+}
+div.thirddiv {
+    text-align: center;
+    float: right
+}
+h2.poem {
+    color: white;
+    line-height: 50px;
+        font-family: droid serif;
+
+}
+#modal-popup {
+    height:95px;
+    width: 300px;
+    background: #ffffff;
+    position:fixed;
+    top:400px;
+    left: 400;
+    z-index:100;
+ 
+}
+h2.space {
+    line-height: 40px;
+    font-family: droid serif;
+}
+    
+    
+    
